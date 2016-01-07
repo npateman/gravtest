@@ -641,7 +641,7 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 a {
-  color: #1694CA; }
+  color: #5692ce; }
   a:hover {
     color: #0e6185; }
 
@@ -674,14 +674,14 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(19, 131, 179, 0.7); }
 
 #header {
-  background: #1694CA;
+  background: #dfe5e6;
   color: #fff;
   text-align: center;
   padding: 1rem; }
   #header a {
     display: inline-block; }
   #header #logo-svg {
-    width: 8rem;
+    width: 12rem;
     height: 2rem; }
     #header #logo-svg path {
       fill: #fff; }
@@ -689,8 +689,8 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
 .searchbox {
   margin-top: 0.5rem;
   position: relative;
-  border: 1px solid #19a5e1;
-  background: #1383b3;
+  border: 1px solid #ffffff;
+  background: #5692ce;
   border-radius: 4px; }
   .searchbox label {
     color: rgba(255, 255, 255, 0.8);
