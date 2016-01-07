@@ -1,0 +1,34 @@
+1452781903
+s:2298:"<h2>Release notes for:</h2>
+<p>M-Pin SSO for AWS v 3.3</p>
+<h2>Official Release Date:</h2>
+<p>11th November 2014</p>
+<h2>What’s new:</h2>
+<ul>
+<li>First public release of the new M-Pin SSO Server</li>
+<li>Currently available only as AMI's on AWS</li>
+<li>Available as both Free &amp; Enterprise tier AMI's</li>
+<li>One-time-password generation for RADIUS clients (previously available in M-Pin Arion) is now merged into the M-Pin SSO product</li>
+</ul>
+<h2>Supported Platforms:</h2>
+<p>Amazon EC2, Amazon EBS</p>
+<h2>Minimum System Requirements:</h2>
+<p>t2.small EC2 instance</p>
+<h2>Amazon AWS Marketplace Links:</h2>
+<p><a href="https://aws.amazon.com/marketplace/pp/B00PB4WX64">M-Pin SSO Server for Strong Authentication - Free Tier AMI</a>
+<a href="https://aws.amazon.com/marketplace/pp/B00PB4X0SY">M-Pin SSO Server for Strong Authentication - Enterprise Tier AMI</a></p>
+<h2>Distribution of Enterprise-Tier server keys:</h2>
+<p>Free tier credentials.json will automatically be downloaded and installed when launching the M-Pin SSO Free-tier AMI
+Enterprise tier credentials.json will automatically be downloaded and installed when launching the M-Pin SSO Enterprise-tier AMI</p>
+<h2>Upgrade instructions from free tier to enterprise tier:</h2>
+<p>If you wish to upgrade from the free tier to the enterprise tier, please launch a new instance of the M-Pin SSO Enterprise tier AMI.</p>
+<p>If you do not wish to lose the configuration of your free tier instance, please contact your MIRACL representative for instructions on how to perform a true upgrade from the free tier to the enterprise tier.</p>
+<h2>Bugs fixed:</h2>
+<p>n/a (first release of M-Pin SSO Server on AWS)</p>
+<h2>Known Bugs:</h2>
+<p>The mobile application is not currently supported on Windows Mobile
+There are additionally some known bugs running M-Pin-In-Browser in the desktop version of Internet Explorer 10 or higher (earlier versions are not supported) that are currently being resolved by MIRACL.</p>
+<h2>Documentation:</h2>
+<p><a href="/docs/m-pin-sso/access">AWS Product Access Instructions</a></p>
+<p><a href="/docs/m-pin-sso/m-pin-sso-for-aws-getting-started-guide">M-Pin SSO Server Getting Started Guide</a></p>
+<p><a href="/docs/m-pin-sso/m-pin-sso-configuration-guide">M-Pin SSO Server Configuration Guide</a></p>";

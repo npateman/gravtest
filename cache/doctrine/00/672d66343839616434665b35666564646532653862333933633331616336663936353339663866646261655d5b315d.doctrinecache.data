@@ -1,0 +1,61 @@
+1452781900
+s:6009:"<p>This section explains the steps that are required to make your M-Pin SSO instance fully operational and manageable by users with administrative privileges. The guide assumes you have created and accessed your M-Pin SSO initial-setup account (as explained in M-Pin SSO for AWS Product Access Instructions). Note that until your first admin user of the system has been created, only the initial-setup account can be accessed and only with the device-browser combination and credentials with which it has been accessed for the first time.</p>
+<h2>Creating and Configuring Your First Admin User</h2>
+<p>To create and configure your first admin user:</p>
+<ol>
+<li>
+<p>(<em>Conditional</em>) If you have signed out, <strong>sign in to the initial-setup account</strong>.
+To sign in, with your browser, access the M-Pin SSO Sign-in page of the instance at this URL
+http://HOS
+where HOST is the Public DNS or Public IP address of your M-Pin SSO instance. (The Public DNS or Public IP of the instance can be found on your AWS EC2 management console.</p>
+<p>The page will display the M-Pin PIN Pad with the initial-setup account pre-selected.</p>
+<p><img src="/user/assets/ssogsg1.png" alt="Enter your M-Pin" title="Enter your M-Pin" /></p>
+<p>Sign-in with your Pin. You will be taken to the web-based management interface.</p>
+<p><img src="/user/assets/ssogsg2.png" alt="Management Portal" title="Management Portal" /></p>
+<p><strong>Note:</strong>
+You can sign in to the initial-setup account repeatedly but only from the device and with the browser from which you have accessed it for the first time. If this device or browser becomes unavailable for some reason, you'll have to terminate this M-Pin SSO instance and create a new one.</p>
+</li>
+<li>
+<p><strong>Configure the SMTP server</strong>.
+The email sending capability is needed for validating the email addresses with which the users will sign up, so this is a pre-requisite for creating your first admin user. To configure the SMTP server:</p>
+</li>
+<li>
+<p><strong>Access the Server Settings screen</strong> .
+(Administration &gt; Global Settings section &gt;Server settings)</p>
+</li>
+<li>
+<p>In the Server Settings screen, <strong>configure the SMTP-related options</strong>.</p>
+<p><img src="/user/assets/ssogsg3.png" alt="Edit settings" title="Edit settings" /></p>
+</li>
+<li>
+<p><strong>Create at least one user with administrative privileges</strong>
+Following the sub-steps below, create one or more users with administrator privileges</p>
+<ol>
+<li>
+<p><strong>Create the user</strong>.
+A new user is created by accessing the Sign-in page either by using another browser or by logging out the initial-setup user (by clicking on the name of this user at the top-right and selecting <strong>LOG OUT</strong>). The new user needs to provide a valid email address, and create a PIN after email verification. This can be either you providing your email address or another person in your organization; the important thing is to be able to do the email verification so the process could continue.</p>
+<p>The user needs to access the M-Pin SSO Sign-in page and use the <em>Add new identity</em> functionality of the PIN Pad to provide their email as shown below.</p>
+<p><img src="/user/assets/ssogsg4.png" alt="Use Pin Pad to authenticate" title="Use Pin Pad to authenticate" /></p>
+<p><img src="/user/assets/ssogsg5.png" alt="Add a new identity to the pin pad" title="Add a new identity to the pin pad" /></p>
+<p><img src="/user/assets/ssogsg6.png" alt="enter your identitity" title="enter your identitity" /></p>
+<p>Once the email address has been validated (by accessing the link provided in the verification email message), the user needs to access the Sign-in page again to create their PIN. Upon PIN creation, the new user will be listed in the M-Pin SSO’s web-based management interface. (Administration &gt; M-Pin SSO Settings section &gt; Users). Note that you will not be able to access this part of the interface whilst logged in as the new user as this new account does not yet have administrative privileges.</p>
+</li>
+<li>
+<p><strong>Grant administrative privileges to the user</strong>.
+To do this:</p>
+<ol>
+<li>Logout from your new user’s account, then log back in as the <strong>initial-setup</strong> account using the original PIN you created. (Use the menu icon at the top-right of the PIN pad to display available identities and double-click on the <strong>initial-setup</strong> identity to select it.</li>
+<li><strong>Access the Select User to Change screen</strong>. (Administration &gt; M-Pin SSO Settings section &gt; Users)<img src="/user/assets/ssogsg7.png" alt="Select a user to change" title="Select a user to change" /></li>
+<li><strong>Click the user's name</strong> (which is actually a link) to access the Change User screen.</li>
+<li>
+<p>In the Change User screen, <strong>check the <em>Staff status</em> and <em>Superuser status</em> boxes</strong>. (The <em>Active</em> box must remain checked.)</p>
+<p><img src="/user/assets/ssogsg8.png" alt="Change user status" title="Change user status" /></p>
+</li>
+<li>Save your changes.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>(<em>Optional</em>) <strong>Delete the initial-setup account</strong>.
+Once you have one or more users with administrative privileges, you can safely delete the <strong>initial-setup</strong> account. (Administration &gt; Users, select the <strong>initial-setup</strong> identity, then scroll to the bottom of the page and select ‘Delete’ followed by ‘Yes, I’m sure’) This will delete the <strong>initial-setup</strong> user and log you out (if you were logged in as this user). You will also notice that the initial-setup user account is still in the PIN pad. You can remove it by accessing the account management page of the PIN pad (click the menu icon at the top-right), then click the pencil icon next to the <strong>initial-setup</strong> user, followed by <strong>Remove Identity</strong> and <strong>Yes, Remove it</strong>.</li>
+</ol>";
