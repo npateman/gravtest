@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/user/config/site.yaml',
-    'modified' => 1452167680,
+    'modified' => 1452167682,
     'data' => [
         'title' => 'M-Pin Documentation',
         'metadata' => [

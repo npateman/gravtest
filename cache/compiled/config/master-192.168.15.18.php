@@ -1,61 +1,51 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1452171836,
-    'checksum' => 'c9c4dd7053550bf92a1d3d9bd4ed1fdf',
+    'timestamp' => 1452182297,
+    'checksum' => '94d37e583325cacff9f40863eeb9b36d',
     'files' => [
-        'user/localhost/config' => [
-            'security' => [
-                'file' => 'user/localhost/config/security.yaml',
-                'modified' => 1452162885
-            ],
-            'system' => [
-                'file' => 'user/localhost/config/system.yaml',
-                'modified' => 1450829883
-            ]
-        ],
         'user/config' => [
             'plugins/anchors' => [
                 'file' => 'user/config/plugins/anchors.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'plugins/highlight' => [
                 'file' => 'user/config/plugins/highlight.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/config/plugins/simplesearch.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1452167898
+                'modified' => 1452167900
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1452167680
+                'modified' => 1452167682
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1452167782
+                'modified' => 1452167784
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ]
         ],
         'user/plugins' => [
@@ -65,15 +55,15 @@ return [
             ],
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/breadcrumbs.yaml',
-                'modified' => 1450829885
+                'modified' => 1450829886
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1450829885
+                'modified' => 1450829886
             ],
             'plugins/highlight' => [
                 'file' => 'user/plugins/highlight/highlight.yaml',
-                'modified' => 1450829885
+                'modified' => 1450829886
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -523,7 +513,7 @@ return [
             ],
             'twig' => [
                 'cache' => true,
-                'debug' => true,
+                'debug' => false,
                 'auto_reload' => true,
                 'autoescape' => false,
                 'undefined_functions' => true,
@@ -531,11 +521,11 @@ return [
                 'umask_fix' => false
             ],
             'assets' => [
-                'css_pipeline' => false,
+                'css_pipeline' => true,
                 'css_minify' => true,
                 'css_minify_windows' => false,
                 'css_rewrite' => true,
-                'js_pipeline' => false,
+                'js_pipeline' => true,
                 'js_minify' => true,
                 'enable_asset_timestamp' => false,
                 'collections' => [
@@ -576,7 +566,7 @@ return [
             ]
         ],
         'security' => [
-            'salt' => 'P6kiNnQXoZpqBH'
+            'salt' => 'qj35L90WBYkHCr'
         ]
     ]
 ];

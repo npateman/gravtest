@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/user/plugins/highlight/blueprints.yaml',
-    'modified' => 1450829885,
+    'modified' => 1450829886,
     'data' => [
         'name' => 'Highlight',
         'version' => '1.2.0',

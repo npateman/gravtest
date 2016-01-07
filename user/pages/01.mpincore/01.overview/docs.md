@@ -15,14 +15,14 @@ This section provides a conceptual overview of the M-Pin Core and its components
 *  [M-Pin Core Services](#m-pin-core-services)
 *  [Services Run by MIRACL](#services-run-by-miracl)
 *  [M-Pin Core Services Run by MIRACL Customers](#m-pin-core-server-services-run-by-miracl-customers)
-*  [M-Pin Authentication Protocol Overview](#m-pin-authentication-protocol-overview)
-*  [Distributed Trusted Authorities (D-TAs) Overview](#distributed-trusted-authorities-d-tas-overview)
-*  [Trusted Authority (TA) Concept Overview](#trusted-authority-ta-concept-overview)
-*  [M-Pin Platform's Distributed Trusted Authority Architecture Overview](#m-pin-platforms-distributed-trusted-authority-architecture-overv)
-*  [MIRACL D-TA Operation](#miracl-d-ta-operation)
-*  [MIRACL D-TA Privacy and Security](#miracl-d-ta-privacy-and-security)
-*  [M-Pin User Setup Overview](#m-pin-user-setup-overview)
-*  [M-Pin Authentication Overview](#m-pin-authentication-overview)
+*  [M-Pin Authentication Protocol Overview](#chap2)
+*  [Distributed Trusted Authorities (D-TAs) Overview](#chap3)
+*  [Trusted Authority (TA) Concept Overview](#chap31)
+*  [M-Pin Platform's Distributed Trusted Authority Architecture Overview](#chap32)
+*  [MIRACL D-TA Operation](#chap33)
+*  [MIRACL D-TA Privacy and Security](#chap34)
+*  [M-Pin User Setup Overview](#chap4)
+*  [M-Pin Authentication Overview](#chap5)
 
 ## M-Pin Core General Overview
 

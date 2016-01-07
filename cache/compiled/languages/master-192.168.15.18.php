@@ -1,53 +1,53 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1452173835,
-    'checksum' => '58e45d308c808483e40b8fea9950ca6f',
+    'timestamp' => 1452182297,
+    'checksum' => '174b1500434095d79e097ca3d742f20a',
     'files' => [
         'system/languages' => [
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1450829883
+                'modified' => 1450829884
             ]
         ],
         'user/plugins' => [
@@ -712,6 +712,6 @@ Elérési út: `%2$s`
                 'DEC_PLURAL' => 'onyl'
             ]
         ],
-        'checksum' => '58e45d308c808483e40b8fea9950ca6f'
+        'checksum' => '174b1500434095d79e097ca3d742f20a'
     ]
 ];

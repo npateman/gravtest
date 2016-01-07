@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/user/config/system.yaml',
-    'modified' => 1452167782,
+    'modified' => 1452167784,
     'data' => [
         'home' => [
             'alias' => '/mpincore'
