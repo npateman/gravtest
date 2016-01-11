@@ -62,7 +62,7 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   #header a {
     display: inline-block; }
     #header #logo-svg {
-      width: 15rem;
+      width: 12rem;
       height: 2rem; }
       #header #logo-svg path {
         fill: #fff; }
