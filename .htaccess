@@ -61,5 +61,5 @@ RewriteRule ^(LICENSE.txt|composer.lock|composer.json|\.htaccess)$ error [F]
 
 # Begin - Prevent Browsing and Set Default Resources
 Options -Indexes
-DirectoryIndex index.php index.html index.htm
+DirectoryIndex index.php
 # End - Prevent Browsing and Set Default Resources
