@@ -26,9 +26,6 @@
         "rockettheme/toolbox": "~1.2",
         "maximebf/debugbar": "~1.10"
     },
-    "require-dev": {
-        "heroku/heroku-buildpack-php": "dev-master"
-    },
     "autoload": {
         "psr-4": {
             "Grav\\": "system/src/Grav"
