@@ -26,12 +26,6 @@
         "rockettheme/toolbox": "~1.2",
         "maximebf/debugbar": "~1.10"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/getgrav/parsedown"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Grav\\": "system/src/Grav"
