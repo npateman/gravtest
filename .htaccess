@@ -1,3 +1,5 @@
+<IfModule mod_rewrite.c>
+
 RewriteEngine On
 
 ## Begin RewriteBase
@@ -54,6 +56,8 @@ RewriteRule (^\.|/\.) - [F]
 # Block access to specific files in the root folder
 RewriteRule ^(LICENSE.txt|composer.lock|composer.json|\.htaccess)$ error [F]
 ## End - Security
+
+</IfModule>
 
 # Begin - Prevent Browsing and Set Default Resources
 Options -Indexes
