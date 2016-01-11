@@ -64,15 +64,13 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   @media only all and (max-width: 59.938em) {
     #header #logo-svg {
       width: 15rem;
-      height: 2rem; }
-      #header #logo-svg path {
-        fill: #fff; } }
+      height: 2rem; } }
   @media only all and (max-width: 47.938em) {
     #header #logo-svg {
-      width: 12rem;
-      height: 2rem; }
-      #header #logo-svg path {
-        fill: #fff; } }
+      width: 11rem;
+      height: 2rem; } }
+	  #header #logo-svg path {
+        fill: #fff; }
 
 .searchbox {
   margin-top: 0.5rem;
