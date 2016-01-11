@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "456a64a46ef92e9d15f5ca4416a8b3f2",
-    "content-hash": "5af518c1cbff2ef8c165f4e6150f3b1b",
+    "hash": "49942e206d5f96107e995048127ba6f5",
+    "content-hash": "5c52fa624e58b168dbc0aa9aab4b7af6",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -1077,16 +1077,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.23.2",
+            "version": "v1.23.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "d07c53df79e0c7ff8d78e72d521d46ef0fd80356"
+                "reference": "ae53fc2c312fdee63773b75cb570304f85388b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d07c53df79e0c7ff8d78e72d521d46ef0fd80356",
-                "reference": "d07c53df79e0c7ff8d78e72d521d46ef0fd80356",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ae53fc2c312fdee63773b75cb570304f85388b08",
+                "reference": "ae53fc2c312fdee63773b75cb570304f85388b08",
                 "shasum": ""
             },
             "require": {
@@ -1134,55 +1134,10 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-01-11 13:20:06"
+            "time": "2016-01-11 14:02:19"
         }
     ],
-    "packages-dev": [
-        {
-            "name": "heroku/heroku-buildpack-php",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "381d12e06534b7d059d42407c96588826d5e4ab4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/381d12e06534b7d059d42407c96588826d5e4ab4",
-                "reference": "381d12e06534b7d059d42407c96588826d5e4ab4",
-                "shasum": ""
-            },
-            "bin": [
-                "bin/heroku-hhvm-apache2",
-                "bin/heroku-hhvm-nginx",
-                "bin/heroku-php-apache2",
-                "bin/heroku-php-nginx"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Zuelke",
-                    "email": "dz@heroku.com"
-                }
-            ],
-            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
-            "homepage": "http://github.com/heroku/heroku-buildpack-php",
-            "keywords": [
-                "apache",
-                "apache2",
-                "foreman",
-                "heroku",
-                "hhvm",
-                "nginx",
-                "php"
-            ],
-            "time": "2016-01-08 00:59:08"
-        }
-    ],
+    "packages-dev": [],
     "aliases": [
         {
             "alias": "1.6.0",
@@ -1194,8 +1149,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "erusev/parsedown": 20,
-        "filp/whoops": 15,
-        "heroku/heroku-buildpack-php": 20
+        "filp/whoops": 15
     },
     "prefer-stable": false,
     "prefer-lowest": false,
