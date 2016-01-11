@@ -5,3 +5,5 @@ taxonomy:
 ---
 
 ![M-Pin Core](/user/assets/1-m-pin-core.png "M-Pin Core")
+
+test
