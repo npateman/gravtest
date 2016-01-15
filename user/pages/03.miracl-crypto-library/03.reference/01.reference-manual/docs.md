@@ -4,19 +4,19 @@ taxonomy:
     category: docs
 ---
 
--   [1 MIRACL Reference Manual](#chap1)
--   [2 MIRACL Module Documentation](#chap2)
-    1.  [2.1 Low level routines](#chap21)
-    2.  [2.2 Advanced arithmetic routines](#chap22)
-    3.  [2.3 Montgomery arithmetic routines](#chap23)
-    4.  [2.4 ZZn2 arithmetic routines](#chap24)
-    5.  [2.5 Encryption routines](#chap25)
-    6.  [2.6 Elliptic curve routines](#chap26)
-    7.  [2.7 Floating-slash routines](#chap27)
--   [3 MIRACL Data Structure Documentation](#chap3)
-    1.  [3.1 MIRACL Structure Reference](#chap31)
+[1. MIRACL Reference Manual](#1-miracl-reference-manual)
+[2. MIRACL Module Documentation](#2-miracl-module-documentation)
+  [2.1 Low level routines](#21-low-level-routines)
+  [2.2 Advanced arithmetic routines](#22-advanced-arithmetic-routines)
+  [2.3 Montgomery arithmetic routines](#23-montgomery-arithmetic-routines)
+  [2.4 ZZn2 arithmetic routines](#24-zzn2-arithmetic-routines)
+  [2.5 Encryption routines](#25-encryption-routines)
+  [2.6 Elliptic curve routines](#26-elliptic-curve-routines)
+  [2.7 Floating-slash routines](#27-floating-slash-routines)
+[3. MIRACL Data Structure Documentation](#3-miracl-data-structure-documentation)
+  [3.1 MIRACL Structure Reference](#31-miracl-structure-reference)
 
-<a href="" class="anchor"></a>1 MIRACL Reference Manual
+1. MIRACL Reference Manual
 -------------------------------------------------------
 
 Note: In these routines a big parameter can also be used wherever a flash is specified, but not viceversa.
@@ -24,18 +24,18 @@ Further information may be gleaned from the (lightly) commented source code. An 
 the name indicates that the function does not take a mip parameter if MR\_GENERIC\_MT is defined in
 mirdef.h.
 
--   <span>**Low-level routines**</span>
--   <span>**Advanced arithmetic routines**</span>
--   <span>**Montgomery arithmetic routines**</span>
--   <span>**ZZn2 arithmetic routines**</span>
--   <span>**Elliptic curve routines**</span>
--   <span>**Encryption routines**</span>
--   <span>**Floating-slash routines**</span>
+-  **Low-level routines**
+-  **Advanced arithmetic routines**
+-  **Montgomery arithmetic routines**
+-  **ZZn2 arithmetic routines**
+-  **Elliptic curve routines**
+-  **Encryption routines**
+-  **Floating-slash routines**
 
-<a href="" class="anchor"></a>2 MIRACL Module Documentation
+2. MIRACL Module Documentation
 -----------------------------------------------------------
 
-### <a href="" class="anchor"></a>2.1 Low level routines
+### 2.1 Low level routines
 
 #### Functions
 
@@ -1004,7 +1004,7 @@ Sets a big/flash number to zero
 
 →x
 
-### <a href="" class="anchor"></a>2.2 Advanced arithmetic routines
+### 2.2 Advanced arithmetic routines
 
 **Functions**
 
@@ -1709,7 +1709,7 @@ and yd
 
 xgcd(x, p, x, x, x,); // x = 1/x mod p (p is prime)
 
-### <a href="" class="anchor"></a>2.3 Montgomery arithmetic routines
+### 2.3 Montgomery arithmetic routines
 
 **Functions**
 
@@ -2084,7 +2084,7 @@ Must be preceded by call to prepare\_monty()
 
 nres
 
-### <a href="" class="anchor"></a>2.4 ZZn2 arithmetic routines
+### 2.4 ZZn2 arithmetic routines
 
 **Functions**
 
@@ -2353,8 +2353,6 @@ Sets a zzn2 variable to zero
 **Parameters**:
 
 →w = 0
-
-<a href="" class="anchor"></a>
 
 ### 2.5 Encryption routines
 
@@ -2680,7 +2678,7 @@ Generates a sequence of cryptographically strong random bytes
 
 A random byte
 
-### <a href="" class="anchor"></a>2.6 Elliptic curve routines
+### 2.6 Elliptic curve routines
 
 **Functions**
 
@@ -3415,7 +3413,7 @@ TRUE if p is the point at infinity, otherwise FALSE
 
 The point must be initialised
 
-### <a href="" class="anchor"></a>2.7 Floating-slash routines
+### 2.7 Floating-slash routines
 
 **Functions**
 
@@ -3922,10 +3920,10 @@ Extracts the numerator of a flash number
 ←x
 →y the numerator of x
 
-<a href="" class="anchor"></a>3 MIRACL Data Structure Documentation
+3. MIRACL Data Structure Documentation
 -------------------------------------------------------------------
 
-### <a href="" class="anchor"></a>3.1 MIRACL Structure Reference
+### 3.1 MIRACL Structure Reference
 
 **MIRACL Instance Pointer.**
 \#include &lt;miracl.h&gt;
