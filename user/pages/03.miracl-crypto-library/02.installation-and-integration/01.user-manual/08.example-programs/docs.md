@@ -1,11 +1,8 @@
 ---
-title: Example Programs
+title: 8. Example Programs
 taxonomy:
     category: docs
 ---
-
-8. Example Programs
-===================
 
 Note: The programs described here are of an experimental nature, and in many cases are not completely 'finished off'. For further information read the comments associated with the appropriate source file.
 

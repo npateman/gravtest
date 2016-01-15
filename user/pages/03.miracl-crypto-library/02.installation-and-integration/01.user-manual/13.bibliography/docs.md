@@ -1,11 +1,8 @@
 ---
-title: Bibliography
+title: 13. Bibliography
 taxonomy:
     category: docs
 ---
-
-13. Bibliography
-================
 
 \[Blake\] BLAKE, SEROUSSI, and SMART. Elliptic Curves in Cryptography,London Mathematical Society Lecture Notes Series 265,CambridgeUniversityPress. ISBN 0 521 65374 6, July 1999
 

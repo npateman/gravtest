@@ -1,11 +1,8 @@
 ---
-title: MIRACL Error Messages
+title: 11. MIRACL Error Messages
 taxonomy:
     category: docs
 ---
-
-11. MIRACL Error Messages
-=========================
 
 MIRACL error messages, diagnosis and response.
 

@@ -1,11 +1,8 @@
 ---
-title: Installation
+title: 2. Installation
 taxonomy:
     category: docs
 ---
-
-2. Installation
-===============
 
 The MIRACL library has been successfully installed on a VAX11/780, on a variety of UNIX workstations (Sun, SPARC, Next, IBM RS/6000), on an IBM PC using the Microsoft C and C++ compilers, Borland’s Turbo C and Borland C++ compilers, the Watcom C compiler and the DJGPP GNU compiler; on ARM based computers, and on an Apple Macintosh. Recently it has been implemented on Itanium and AMD 64-bit processors.
 

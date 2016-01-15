@@ -1,11 +1,8 @@
 ---
-title: TODO - Instance Variables
+title: 10. Instance Variabless
 taxonomy:
     category: docs
 ---
-
-10. Instance Variables
-======================
 
 These variables are all member of the *miracl* structure defined in *miracl.h*. They are all accessed via the *mip* - the **M**iracl **I**nstance **P**ointer.
 

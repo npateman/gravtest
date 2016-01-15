@@ -1,11 +1,8 @@
 ---
-title: The Hardware/Compiler Interface
+title: 12. The Hardware/Compiler Interface
 taxonomy:
     category: docs
 ---
-
-12. The Hardware/Compiler Interface
-===================================
 
 Hardware/compiler details are specified to MIRACL in this header file *mirdef.h*
 

@@ -1,11 +1,8 @@
 ---
-title: The User Interface
+title: 3. The User Interface
 taxonomy:
     category: docs
 ---
-
-3. The User Interface
-=====================
 
 **AN EXAMPLE**
 

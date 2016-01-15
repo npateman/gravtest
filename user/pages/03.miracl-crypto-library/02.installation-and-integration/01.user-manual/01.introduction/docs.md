@@ -1,11 +1,8 @@
 ---
-title: Introduction
+title: 1. Introduction
 taxonomy:
     category: docs
 ---
-
-1. Introduction
-===============
 
 Remember when as a naive young computer user, you received delivery of your brand new state-of-the-art micro; remember your anticipation at the prospect of the computer power now available at your fingertips; remember recalling all those articles which promised that ‘today’s microcomputers are as powerful as yesterdays mainframes’. Remember then slowly and laboriously typing in your first program, to calculate, say, 1000! (i.e. 1000 ´ 999 ´ 998... ´1) - a calculation unimaginable by hand.
 

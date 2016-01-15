@@ -1,11 +1,8 @@
 ---
-title: The MIRACL Routines
+title: 9. The MIRACL Routines
 taxonomy:
     category: docs
 ---
-
-9. The MIRACL Routines
-======================
 
 Note: In these routines a *big* parameter can also be used wherever a *flash* is specified, but not visa-versa. Further information may be gleaned from the (lightly) commented source code. An asterisk \* after the name indicates that the function does not take a *mip* parameter if **MR\_GENERIC\_MT** is defined in *mirdef.h*. See Section 2.3 for more details.
 

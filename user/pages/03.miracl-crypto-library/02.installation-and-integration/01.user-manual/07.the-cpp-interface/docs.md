@@ -1,15 +1,12 @@
 ---
-title: The C++ Interface
+title: 7. The C++ Interface
 taxonomy:
     category: docs
 ---
 
-7. The C++ Interface
-====================
-
 Many users of the MIRACL package would be disappointed that they have to calculate
 
-<embed src="/images/7.1.png%20style=" class="confluence-embedded-image confluence-thumbnail" width="125" />
+![](/images/7.1.png)
 
 for a flash variable *x* by the sequence
 

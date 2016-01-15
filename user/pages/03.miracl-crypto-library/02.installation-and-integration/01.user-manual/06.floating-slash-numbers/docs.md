@@ -1,11 +1,8 @@
 ---
-title: Floating-Slash Numbers
+title: 6. Floating-Slash Numbers
 taxonomy:
     category: docs
 ---
-
-6. Floating-Slash Numbers
-=========================
 
 The straightforward way to represent rational numbers is as reduced fractions, as a numerator and denominator with all common factors cancelled out. These numbers can then be added, subtracted, multiplied and divided in the obvious way and the result reduced by dividing both numerator and denominator by their Greatest Common Divisor. An efficient GCD subroutine, using Lehmers modification of the classical Euclidean algorithm for multiprecision numbers \[Knuth81\], is included in the MIRACL package.
 

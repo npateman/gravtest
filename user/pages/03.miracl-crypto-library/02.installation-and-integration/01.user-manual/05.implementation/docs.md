@@ -1,11 +1,8 @@
 ---
-title: Implementation
+title: 5. Implementation
 taxonomy:
     category: docs
 ---
-
-5. Implementation
-=================
 
 No great originality is claimed for the routines used to implement arithmetic on the *big* data-type. The algorithms used are faithful renditions of those described by Knuth \[Knuth81\]. However some effort was made to optimize the implementation for speed. At the heart of the time-consuming multiply and divide routines there is, typically, a need to multiply together a digit from each operand, add in a ‘carry’ from a previous operation, and then separate the total into a digit of the result, and a \`carry' for the next operation. To illustrate consider this base 10 multiplication:
 
