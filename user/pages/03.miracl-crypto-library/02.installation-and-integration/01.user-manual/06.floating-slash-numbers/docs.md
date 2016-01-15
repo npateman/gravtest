@@ -8,13 +8,13 @@ The straightforward way to represent rational numbers is as reduced fractions, a
 
 An alternative way to represent rationals would be as a finite continued fraction \[Knuth81\]. Every rational number *p/q* can be written as
 
-<embed src="/images/equation2.png%20style=" class="confluence-embedded-image confluence-thumbnail" width="300" /><span> </span>
+![](/images/equation2.png)
 
 or more elegantly as *p/q* = \[*a<sub>0</sub>/a<sub>1</sub>/a<sub>2</sub>/..../a<sub>n</sub>*\] where the *a<sub>i</sub>* are positive integers, usually quite small.
 
 For example
 
-<embed src="/images/equation1.png%20style=" class="confluence-embedded-image" />
+![](/images/equation1.png)
 
 Note that the *a<sub>i</sub>* elements of the above continued fraction representation are easily found as the quotients generated as a by-product when the Euclidean GCD algorithm is applied to *p* and *q*.
 

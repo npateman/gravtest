@@ -3301,7 +3301,7 @@ The value of *nk* can be 16, 24 or 32. A 16 bytes initialisation vector *iv* sho
 
 Return value: TRUE if initialisation succeeded, otherwise FALSE.
 
-<img src="https://MIRACL.org/download/attachments/7635927/9.1.png?version=1&amp;modificationDate=1372863201000&amp;api=v2" class="confluence-embedded-image" />
+![](https://MIRACL.org/download/attachments/7635927/9.1.png)
 
 ### 9.4.6 aes\_reset \*
 

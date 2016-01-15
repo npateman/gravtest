@@ -314,6 +314,6 @@ return 0;
 
 MIRACL has evolved quite a complex class hierarchy – see the diagram below. Where possible classes are built directly on top of the C/assembly core. Note the support for polynomials, power series and extension fields.
 
-<embed src="/images/7.2.png%20style=" class="confluence-embedded-image" />
+![](/images/7.2.png)
 
 

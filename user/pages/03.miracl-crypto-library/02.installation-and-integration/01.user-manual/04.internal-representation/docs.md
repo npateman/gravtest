@@ -69,7 +69,7 @@ taxonomy:
 <span id="hs_cos_wrapper_right_column" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text" style="">These structures combine ease of use with representational efficiency. A denominator of length zero (*d=0*), implies an actual denominator of one; and similarly a numerator of length zero (*n=0*) implies a numerator of one. Zero itself is uniquely defined as the number whose first element is zero (i.e. *n=d=0*).
 </span>
 
-<span id="hs_cos_wrapper_right_column" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text" style=""><span><embed src="/images/4.1.png%20style=" class="confluence-embedded-image" width="500" /></span></span>
+![](/images/4.1.png)
 
 <span id="hs_cos_wrapper_right_column" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text" style=""><span>Figure 4.1: Structure of </span>*big*<span> and </span>*flash*<span> data-types where s is the sign of the number, </span>*n*<span> and </span>*d*<span> are the lengths of the numerator and denominator respectively, and LSW and MSW mean ‘Least significant word and ‘Most significant word’ respectively</span></span>
 
