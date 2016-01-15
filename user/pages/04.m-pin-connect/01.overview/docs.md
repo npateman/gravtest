@@ -15,12 +15,12 @@ This page explains the M-Pin Connect service and provides links to pages that wi
 On This Page
 ------------
 
--   [Introduction to M-Pin Connect](#Introduction%20to%20M-Pin%20Connect)
--   [How M-Pin Connect Works](#How%20M-Pin%20Connect%20Works)
--   [M-Pin Connect Accounts Overview](#M-Pin%20Connect%20Accounts%20Overview)
--   [Getting Started](#Getting%20Started)
+-   [Introduction to M-Pin Connect](#introduction-to-m-pin-connect)
+-   [How M-Pin Connect Works](#how-m-pin-connect-works)
+-   [M-Pin Connect Accounts Overview](#m-pin-connect-accounts-overview)
+-   [Getting Started](#getting-started)
 
-<a href="" id="Introduction to M-Pin Connect"></a>Introduction to M-Pin Connect
+Introduction to M-Pin Connect
 -------------------------------------------------------------------------------
 
 M-Pin Connect is a web application hosted by MIRACL and <span style="line-height: 19.2000007629395px;">based on the M-Pin technology, </span><span style="line-height: 19.2000007629395px;">that federates strong authentication using the [OpenID Connect](http://openid.net/connect/faq/) protocol</span><span style="line-height: 1.6em;">. M-Pin Connect operates like other similar services, </span>such as [Facebook Connect](https://en.wikipedia.org/wiki/Facebook_Platform#Facebook_Connect), but because it employs the [M-Pin Technology](#M-Pin%20Technology), the single sign-on authentication is performed with a PIN number (using the [M-Pin PIN-Pad](#M-Pin%20PIN-Pad)) and not with a password.
@@ -34,7 +34,7 @@ The M-Pin Connect service is available from the [m-pin.my.id](https://m-pin.my.i
 
 To enable authentication with M-Pin Connect for an application, this application must have a profile configured inside an M-Pin Connect account. Once this is done, every end user accessing the application's Redirect URI will be exposed to the [M-Pin Pin-Pad](#M-Pin%20PIN-Pad) where they will follow the M-Pin registration and authentication flow for logging in to the application. (User log-in access can be further restricted for the application, as with an LDAP directory. However, this is part the application's management and not controllable through the M-Pin Connect service.) For details on the M-Pin registration and authentication flow, see the [Logging-In to Your Application](#) page.
 
-<a href="" id="M-Pin Connect Accounts Overview"></a>M-Pin Connect Accounts Overview
+M-Pin Connect Accounts Overview
 -----------------------------------------------------------------------------------
 
 When an end-user attempts to access M-Pin-Connect-enabled application for the first time, they are required to register with their email address to the [M-Pin Pin-Pad](#M-Pin%20PIN-Pad) in order to proceed with their authentication to the application. This registration <span style="line-height: 19.2000007629395px;">allows them to access this account through M-Pin Connect, too, </span><span style="line-height: 1.6em;">once they create their M-Pin Connect account. </span>
@@ -55,11 +55,11 @@ By the same token, to be able to access an application's M-Pin-based log-in, a u
 
 An application's Redirect URI must be unique for the entire M-Pin Connect system. This means that once a user configures an application in their account, no other user can register that application with the same Redirect URI: an attempt tp do so will return an error message. They can however register the same application with a different Redirect URI.
 
-<a href="" id="Getting Started"></a>Getting Started
+Getting Started
 ---------------------------------------------------
 
 To get started with M-Pin Connect, see the following topics:
 
--   [Registering and Logging In](#)
--   [Adding and Configuring an Application](#)
+-   [Registering and Logging In](/m-pin-connect/registering-and-logging-in)
+-   [Adding and Configuring an Application](/m-pin-connect/managing-apps/configuring-an-app)
 
