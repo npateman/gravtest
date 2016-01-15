@@ -28,15 +28,15 @@ To do this:
 
 **1.1. Select the** *My Applications* **link**.
 
-<img src="/images/screenshot_13(5).jpg?dc=201506241129-36" id="Picture 7" />
+![](/images/screenshot_13(5).jpg)
 
 This will display the *Registered Apps* page.
 
-<img src="/images/screenshot_14.jpg?dc=201506241127-64" id="Picture 10" />
+![](/images/screenshot_14.jpg)
 
 **1.2.** In the *Registered Apps* page, **select the** *Register a new **** application* **button**. (See the picture above.) This will take you to the *M-Pin OIDC Management Console* page.
 
-![](/images/screenshot_15.jpg?dc=201506251441-96)
+![](/images/screenshot_15.jpg)
 
 **1.3. Fill in the profile’s fields** and then **use the** *Done* **button** to commit your changes.
 
