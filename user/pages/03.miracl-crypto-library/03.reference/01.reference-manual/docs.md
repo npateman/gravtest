@@ -6,15 +6,15 @@ taxonomy:
 
 -  [1. MIRACL Reference Manual](#1-miracl-reference-manual)
 -  [2. MIRACL Module Documentation](#2-miracl-module-documentation)
--    [2.1 Low level routines](#21-low-level-routines)
--    [2.2 Advanced arithmetic routines](#22-advanced-arithmetic-routines)
--    [2.3 Montgomery arithmetic routines](#23-montgomery-arithmetic-routines)
--    [2.4 ZZn2 arithmetic routines](#24-zzn2-arithmetic-routines)
--    [2.5 Encryption routines](#25-encryption-routines)
--    [2.6 Elliptic curve routines](#26-elliptic-curve-routines)
--    [2.7 Floating-slash routines](#27-floating-slash-routines)
+  -  [2.1 Low level routines](#21-low-level-routines)
+  -  [2.2 Advanced arithmetic routines](#22-advanced-arithmetic-routines)
+  -  [2.3 Montgomery arithmetic routines](#23-montgomery-arithmetic-routines)
+  -  [2.4 ZZn2 arithmetic routines](#24-zzn2-arithmetic-routines)
+  -  [2.5 Encryption routines](#25-encryption-routines)
+  -  [2.6 Elliptic curve routines](#26-elliptic-curve-routines)
+  -  [2.7 Floating-slash routines](#27-floating-slash-routines)
 -  [3. MIRACL Data Structure Documentation](#3-miracl-data-structure-documentation)
--    [3.1 MIRACL Structure Reference](#31-miracl-structure-reference)
+  -  [3.1 MIRACL Structure Reference](#31-miracl-structure-reference)
 
 1. MIRACL Reference Manual
 -------------------------------------------------------
