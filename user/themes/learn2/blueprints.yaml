@@ -3,13 +3,13 @@ version: 1.4.2
 description: "Learn2 is a new modern documentation theme for Grav"
 icon: book
 author:
-  name: Team Grav
-  email: devs@getgrav.org
-  url: http://getgrav.org
-homepage: https://github.com/getgrav/grav-theme-learn2
-demo: http://learn.getgrav.org
-keywords: heme, docs, modern, fast, responsive, html5, css3
-bugs: https://github.com/getgrav/grav-theme-learn2/issues
+  name: Nick Pateman
+  email: nick.pateman@miracl.com
+  url: https://gravtest-nickdev.herokuapp.com
+homepage: https://github.com/npateman/gravtest
+demo: https://gravtest-nickdev.herokuapp.com
+keywords: rtfm, skeleton, documentation, docs
+bugs: https://github.com/npateman/gravtest/issues
 license: MIT
 
 form:
@@ -29,7 +29,7 @@ form:
     home_url:
         type: text
         label: Home URL
-        placeholder: http://getgrav.org
+        placeholder: https://gravtest-nickdev.herokuapp.com
         validate:
           type: text
 
@@ -53,14 +53,14 @@ form:
     github.tree:
         type: text
         label: GitHub Tree
-        default: https://github.com/getgrav/grav-skeleton-rtfm-site/blob/develop/
+        default: https://github.com/npateman/gravtest/blob/develop/
 
     github.commits:
         type: text
         label: GitHub Tree
-        default: https://github.com/getgrav/grav-skeleton-rtfm-site/commits/develop/
+        default: https://github.com/npateman/gravtest/commits/develop/
 
     github.commits:
         type: text
         label: GitHub Tree
-        default: https://github.com/getgrav/grav-skeleton-rtfm-site/commits/develop/
+        default: https://github.com/npateman/gravtest/commits/develop/
