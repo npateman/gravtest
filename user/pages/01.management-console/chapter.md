@@ -12,23 +12,23 @@ Home page of the user documentation about MIRACL Management Console. Browse the 
 HELP TOPICS
 -----------
 
--   [Switching Instances](#)
+-   [Switching Instances](/management-console/switching-instances)
 -   Managing User Access
-    -   [Overview](#)
-    -   [Granting Access](#)
-    -   [Denying Access](#)
+    -   [Overview](/management-console/managing-user-access/overview)
+    -   [Granting Access](/management-console/managing-user-access/granting)
+    -   [Denying Access](/management-console/managing-user-access/denying)
 -   Managing Subscriptions
-    -   [Overview](#)
-    -   [Accessing and Viewing](#)
-    -   [Subscribing to a Plan](#)
-    -   [Changing Plan](#)
-    -   [Canceling Subscription](#)
+    -   [Overview](/management-console/managing-subscriptions/overview)
+    -   [Accessing and Viewing](/management-console/managing-subscriptions/accessing-and-viewing)
+    -   [Subscribing to a Plan](/management-console/managing-subscriptions/subscribing)
+    -   [Changing Plan](/management-console/managing-subscriptions/changing-plan)
+    -   [Canceling Subscription](/management-console/managing-subscriptions/canceling)
 -   Using Support
-    -   [Overview](#)
-    -   [Submitting a Request](#)
-    -   [Browsing a Case](#)
-    -   [Replying](#)
-    -   [Closing a Case](#)
+    -   [Overview](/management-console/using-support/overview)
+    -   [Submitting a Request](/management-console/using-support/submiting-a-request)
+    -   [Browsing a Case](/management-console/using-support/browsing-a-case)
+    -   [Replying](/management-console/using-support/replying)
+    -   [Closing a Case](/management-console/using-support/closing-a-case)
 
 SUPPORT
 -------
