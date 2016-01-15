@@ -1,5 +1,5 @@
 home:
-  alias: '/mpincore'
+  alias: '/'
 
 pages:
   theme: learn2
