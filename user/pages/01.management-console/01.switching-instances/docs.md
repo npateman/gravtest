@@ -25,4 +25,4 @@ Switching Profiles
 
 You switch profiles by selecting the profile to display from the <span style="line-height: 19.2000007629395px;">drop-down named </span>M-Pin server:<span style="line-height: 1.6em;">.</span>
 
-![Switching to another MIRACL product](images/screenshot_17(2).jpg?dc=201507221225-75)
+![Switching to another MIRACL product](/images/screenshot_17(2).jpg?dc=201507221225-75)

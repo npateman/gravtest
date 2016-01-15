@@ -33,11 +33,11 @@ To grant access to a User:
 
 **2.** In the All Users section of the screen, **select** Add new User.
 
-![Adding a User to the MIRACL Management Console](images/screenshot_13(7).jpg?dc=201507241330-99)
+![Adding a User to the MIRACL Management Console](/images/screenshot_13(7).jpg?dc=201507241330-99)
 
 This will display the Add new User page.
 
-![The Add New User page](images/screenshot_15(1).jpg?dc=201507241506-110)
+![The Add New User page](/images/screenshot_15(1).jpg?dc=201507241506-110)
 
 **2.** In the Email: field, **type or paste the users email address and then select the** Add User **button**.
 

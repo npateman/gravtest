@@ -41,7 +41,7 @@ Granting and Denying Access – How Is It Done?
 
 Granting access to a User is as simple as adding the user's email address to the product's profile in the MIRACL Management Console. (The email address must be the same with which the user accesses the product.)
 
-![Adding a User to the MIRACL Management Console](images/screenshot_13(7).jpg?dc=201507241330-99)
+![Adding a User to the MIRACL Management Console](/images/screenshot_13(7).jpg?dc=201507241330-99)
 
 For detailed instructions, refer to the [Granting Access to the MIRACL Management Console](#) page.
 
@@ -49,7 +49,7 @@ For detailed instructions, refer to the [Granting Access to the MIRACL Managemen
 
 To deny access for a User (to whom access has been previously granted), just remove their address from the User email addresses listing in the product's profile in the MIRACL Management Console.
 
-![Removing a User from the MIRACL Management Console](images/screenshot_14(2).jpg?dc=201507241336-108)
+![Removing a User from the MIRACL Management Console](/images/screenshot_14(2).jpg?dc=201507241336-108)
 
 For detailed instructions, refer to the [Denying Access to the MIRACL Management Console](#) page.
 

@@ -38,11 +38,11 @@ To deny the access of a User:
 
 **2.** In the All users section of the screen, **hover the mouse pointer over the User's email address until the** Close **button (x) appears and then click it**.
 
-![Removing a User from the All Users listing](images/screenshot_17(3).jpg?dc=201507241636-20)
+![Removing a User from the All Users listing](/images/screenshot_17(3).jpg?dc=201507241636-20)
 
 A window will pop up asking you for confirmation.
 
-![Confirming the removal of a User](images/screenshot_18(1).jpg?dc=201507241640-167)
+![Confirming the removal of a User](/images/screenshot_18(1).jpg?dc=201507241640-167)
 
 **3. Select the** *Confirm* **button to confirm and proceed.**
 
