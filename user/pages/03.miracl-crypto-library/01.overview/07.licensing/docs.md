@@ -4,9 +4,6 @@ taxonomy:
     category: docs
 ---
 
-MIRACL SDK Licencing
-====================
-
 MIRACL has been under continuous development since 1988. It is currently licensed to hundreds of leading companies in the United States, Brazil, Britain, Germany, France, Switzerland, South Africa and Australia. Its cryptographic runtimes can be found in chips, operating systems and software applications in industries ranging from defense and intelligence to financial services and software as a service companies.
 
 Q: What's the license for MIRACL?

@@ -4,9 +4,6 @@ taxonomy:
     category: docs
 ---
 
-Benchmarks and Subs
-===================
-
 **Performance is the biggest single issue for implementors, and MIRACL allows a variety of techniques (algorithmic tricks and/or assembly language) to be used to squeeze maximum performance from a particular environment. So use MIRACL in your cryptographic API for a performance boost - you may not need that expensive Cryptographic accelerator!**
 
 This diagram below shows timings for modular exponentiation, that is the calculation of *x<sup>y</sup>* *mod n*, for *x*, *y* and *n* all the same size in bits - the size shown along the horizontal axis. The exponent *y* is chosen at random. This is the bottleneck calculation in many cryptographic protocols. Five different methods are implemented for the Intel 80x86/Pentium family. Timings on the horizontal axes are correct in seconds for 8192 bit exponentiation. For 4096 bits divide by 8, for 2048 bits divide by 8 again, etc. For a paper describing the methods in more details see [timings.doc](https://MIRACL.org/download/attachments/2458880/timings.doc?version=1&modificationDate=1350574490000&api=v2).

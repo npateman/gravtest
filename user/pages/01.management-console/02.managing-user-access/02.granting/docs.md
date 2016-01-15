@@ -4,9 +4,6 @@ taxonomy:
     category: docs
 ---
 
-Granting Access to the MIRACL Management Console
-================================================
-
 **<span style="font-size:10.0pt;line-height:106%;font-family:
 &quot;Verdana&quot;,sans-serif;color:black;background:white">(MIRACL Management Console)</span>**
 

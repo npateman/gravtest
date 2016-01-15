@@ -4,9 +4,6 @@ taxonomy:
     category: docs
 ---
 
-MIRACL Management Console Documentation
-=======================================
-
 Home page of the user documentation about MIRACL Management Console. Browse the available content from here or use the search field at the top-right.
 
 HELP TOPICS

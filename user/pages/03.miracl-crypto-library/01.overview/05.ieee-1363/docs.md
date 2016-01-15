@@ -4,9 +4,6 @@ taxonomy:
     category: docs
 ---
 
-IEEE 1363
-=========
-
 The IEEE P1363 standard for Public key Cryptography <a href="http://grouper.ieee.org/groups/1363/" class="external-link">P1363</a> is now complete. A fully multi-threaded IEEE 1363 "wrapper" for MIRACL is available which implements all the cryptographic primitives in this popular standard. It also supports point compression for elliptic curves, and precomputation for faster Digital Signature. GF(p) and GF(2<sup>m</sup>) curves are treated separately. The implemented primitives (some from P1363a) are:-
 
 <table>

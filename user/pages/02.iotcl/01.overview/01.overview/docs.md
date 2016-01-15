@@ -4,9 +4,6 @@ taxonomy:
     category: docs
 ---
 
-MIRACL IoT Crypto Library
-=========================
-
 ![CLINT](/images/CLINT-landing.jpg)
 
 **We are currently working hard getting MIRACL IoT Crypto Library ready for it's public release, however you can jump the queue and be one of the first to access MIRACL IoT Crypto Library by joining the MIRACL IoT Crypto Library mailing list, [simply complete the join up form on this page to get access first](http://www.MIRACL.com/clint).**

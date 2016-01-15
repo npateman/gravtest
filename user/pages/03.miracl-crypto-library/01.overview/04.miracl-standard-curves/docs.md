@@ -4,9 +4,6 @@ taxonomy:
     category: docs
 ---
 
-MIRACL Standard Curves
-======================
-
 These curves use the standard Weierstrass parameterisation, and are of the form:-
 
 ***y*<sup>*2*</sup> *= x*<sup>*3*</sup> *+Ax +B* mod *p***

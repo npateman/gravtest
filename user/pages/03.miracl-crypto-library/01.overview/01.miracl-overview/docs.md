@@ -4,9 +4,6 @@ taxonomy:
     category: docs
 ---
 
-MIRACL Overview
-===============
-
 What is MIRACL?
 ---------------
 
