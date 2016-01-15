@@ -10,7 +10,7 @@ MIRACL Overview
 What is MIRACL?
 ---------------
 
-<embed src="/images/1-miracl.png%20style=" class="floatRight" width="250" />Multiprecision Integer and Rational Arithmetic C Library – the MIRACL Crypto SDK – is a C software library that is widely regarded by developers as the gold standard open source SDK for elliptic curve cryptography (ECC).
+![Multiprecision Integer and Rational Arithmetic C Library – the MIRACL Crypto SDK – is a C software library that is widely regarded by developers as the gold standard open source SDK for elliptic curve cryptography (ECC).](/images/1-miracl.png) 
 
 Device or memory constraints? No problem. While there are many libraries that support Cryptography on a PC, MIRACL does more by securing embedded-devices and mobile smart devices like no other SDK in the global market today. For developers who have found other cryptographic libraries ill suited for these constrained platforms, MIRACL is your answer. MIRACL has support for even the most constrained environments imaginable. In this mode of operation, all memory can be allocated exclusively from the stack so that no fragmenting of precious RAM resources is required. New configuration options further reduce the amount of program code.
 
@@ -56,4 +56,4 @@ MIRACL delivers a wide and unique range of benefits, enabling developers to secu
 
 ### **MIRACL also supports a wide range of platforms, including (amongst others):**
 
-<embed src="/images/cpu.jpg%20style=" title="MIRACL also supports a wide range of platforms" class="confluence-embedded-image" />
+![MIRACL also supports a wide range of platforms](/images/cpu.jpg)
