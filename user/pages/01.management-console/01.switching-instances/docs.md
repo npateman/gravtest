@@ -1,5 +1,6 @@
 ---
-title: Switching Instances
+shorttitle: Switching
+longtitle: Switching Instances
 taxonomy:
     category: docs
 ---
