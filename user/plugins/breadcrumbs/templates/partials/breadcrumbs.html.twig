@@ -9,13 +9,13 @@
     {% endif %}
     {% for crumb in crumbs %}
         {% if not loop.last %}
-            <a href="{{ crumb.url }}" itemprop="url"><span itemprop="title">{{ crumb.shorttitle }}</span></a>
+            <a href="{{ crumb.url }}" itemprop="url"><span itemprop="title">{{ crumb.menu }}</span></a>
             <i class="{{ divider }}"></i>
         {% else %}
             {% if breadcrumbs_config.link_trailing %}
-                <a href="{{ crumb.url }}" itemprop="url"><span itemprop="title">{{ crumb.shorttitle }}</span></a>
+                <a href="{{ crumb.url }}" itemprop="url"><span itemprop="title">{{ crumb.menu }}</span></a>
             {% else %}
-                <span itemprop="title">{{ crumb.shorttitle }}</span>
+                <span itemprop="title">{{ crumb.menu }}</span>
             {% endif %}
         {% endif %}
     {% endfor %}
