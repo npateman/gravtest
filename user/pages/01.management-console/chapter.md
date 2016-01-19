@@ -1,5 +1,6 @@
 ---
-title: Miracl Management Console Documentation
+shorttitle: Management Console
+longtitle: MIRACL Management Console Documentation
 taxonomy:
     category: docs
 ---
