@@ -10,7 +10,7 @@
         <li class="dd-item{{ parent_page }}{{ current_page }}" data-nav-id="{{ p.route }}">
             <a href="{{ p.url }}" {% if p.header.class %}class="{{ p.header.class }}"{% endif %}>
                 
-                <span><b>{% if data_level == 0 %}{{ loop.index }}. {% endif %}</b>{{ p.shorttitle }}</span>
+                <span><b>{% if data_level == 0 %}{{ loop.index }}. {% endif %}</b>{{ p.title }}</span>
             </a>
             {% if p.children.count > 0 %}
             <ul>
@@ -30,7 +30,7 @@
         {% else %}
         <i class="fa fa-plus fa-fw"></i>
         {% endif %}
-        <a href="{{ p.url }}">{{ p.shorttitle }}</a>
+        <a href="{{ p.url }}">{{ p.title }}</a>
     </h5>
 {% endmacro %}
 
